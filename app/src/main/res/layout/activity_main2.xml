@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-    
+    tools:context=".MainActivity2">
+
     <ImageView
         android:layout_width="375dp"
         android:layout_height="44dp"
@@ -15,21 +15,21 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <ImageView
-        android:layout_width="348dp"
-        android:layout_height="233dp"
-        android:src="@drawable/PhotoOne"
+        android:layout_width="316dp"
+        android:layout_height="294dp"
+        android:src="@drawable/PhotoTwo"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="163dp"
-        android:layout_marginStart="27dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="29dp"
         android:id="@+id/Photo"/>
 
     <TextView
         android:layout_width="224dp"
         android:layout_height="72dp"
-        android:text="Schedule Games With Friends"
+        android:text="Get Paid! Playing Video Game"
         app:layout_constraintTop_toBottomOf="@id/Photo"
-        android:layout_marginTop="35dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginStart="76dp"
@@ -39,11 +39,11 @@
         android:textColor="#F74671"
         android:textStyle="bold"
         android:id="@+id/TextOne"/>
-    
+
     <TextView
         android:layout_width="224dp"
         android:layout_height="63dp"
-        android:text="Easily create an upcoming event and get ready for battle. Yeah! real combat fella"
+        android:text="Earn points and real cash when you win a battle with no delay in cashing out"
         app:layout_constraintTop_toBottomOf="@id/TextOne"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,7 +54,7 @@
         android:gravity="center"
         android:textColor="#000"
         android:id="@+id/TextTwo" />
-    
+
     <TextView
         android:layout_width="224dp"
         android:layout_height="21dp"
@@ -70,7 +70,7 @@
         android:textColor="#F64671"
         android:textStyle="bold"
         android:id="@+id/textThree"/>
-    
+
     <ImageView
         android:layout_width="50dp"
         android:layout_height="10dp"
@@ -81,4 +81,5 @@
         android:layout_marginStart="163dp"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="45dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
